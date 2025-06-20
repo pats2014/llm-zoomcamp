@@ -192,3 +192,11 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore virtual environment
+.venv/
+
+# Ignore Qdrant local storage
+qdrant_storage/
+
+.DS_Store
